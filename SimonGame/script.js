@@ -56,7 +56,7 @@ function checkBtn(idx){
     if(userSeq[idx]==gameSeq[idx]){
         console.log("Same Value")
         if(userSeq.length==gameSeq.length){
-           setTimeout(levelUp(),1000);
+           setTimeout(levelUp,1000);
         }
     }else{
       //  h2.innerText="Game Over! press any key to start";
